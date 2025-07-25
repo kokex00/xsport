@@ -92,7 +92,7 @@ class HelpCog(commands.Cog):
             inline=False
         )
         
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/123456789/xsportbs_logo.png")
         
         # Create embed data for translations
