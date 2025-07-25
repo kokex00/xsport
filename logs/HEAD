@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 fd0f18ea6a6bb842ab65ed5156eb86ed9b6c8454 kokexkokex29 <45531111-kokexkokex29@users.noreply.replit.com> 1753466329 +0000	commit (initial): Initial commit
+fd0f18ea6a6bb842ab65ed5156eb86ed9b6c8454 98535a975f9349103c4c57bf6818c3a0bf5901c5 kokexkokex29 <45531111-kokexkokex29@users.noreply.replit.com> 1753467008 +0000	commit: Set up core features for server management and match scheduling bot
+98535a975f9349103c4c57bf6818c3a0bf5901c5 c96767b9eb7ab6a40307b6087ca585499e9d8e45 kokexkokex29 <45531111-kokexkokex29@users.noreply.replit.com> 1753467585 +0000	commit: Document user's request to add requirements file and note Replit's dependency system
+c96767b9eb7ab6a40307b6087ca585499e9d8e45 1be40f955dc62019e9b75ddfe4b12a9bdd5afe17 kokexkokex29 <45531111-kokexkokex29@users.noreply.replit.com> 1753467630 +0000	commit: Document the required libraries and dependencies for the project

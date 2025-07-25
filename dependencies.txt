@@ -1,0 +1,27 @@
+# xSportBS Discord Bot Dependencies
+# Generated for documentation purposes
+# Replit manages these dependencies automatically
+
+discord.py==2.5.2
+flask==3.1.1
+aiohttp==3.12.14
+pillow==11.3.0
+aiosqlite==0.21.0
+pytz==2025.2
+
+# Additional dependencies installed automatically:
+# - blinker>=1.9.0 (from flask)
+# - click>=8.1.3 (from flask)
+# - itsdangerous>=2.2.0 (from flask)
+# - jinja2>=3.1.2 (from flask)
+# - markupsafe>=2.1.1 (from flask)
+# - werkzeug>=3.1.0 (from flask)
+# - aiohappyeyeballs>=2.5.0 (from aiohttp)
+# - aiosignal>=1.4.0 (from aiohttp)
+# - attrs>=17.3.0 (from aiohttp)
+# - frozenlist>=1.1.1 (from aiohttp)
+# - multidict<7.0,>=4.5 (from aiohttp)
+# - propcache>=0.2.0 (from aiohttp)
+# - yarl<2.0,>=1.17.0 (from aiohttp)
+# - typing_extensions>=4.0 (from aiosqlite)
+# - idna>=2.0 (from yarl)

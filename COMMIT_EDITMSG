@@ -1,0 +1,7 @@
+Document the required libraries and dependencies for the project
+
+Adds dependencies.txt and package_requirements.txt to list project dependencies: discord.py, flask, aiohttp, pillow, aiosqlite, and pytz.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: 22efbca0-c7d3-43c8-9811-6a5be03e4a57
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/ca8a1f1a-5e4c-4a5e-86f7-ce1422e8f4a0/22efbca0-c7d3-43c8-9811-6a5be03e4a57/P3KDEL5
