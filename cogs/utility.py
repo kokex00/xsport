@@ -72,7 +72,7 @@ class UtilityCog(commands.Cog):
         if image_url:
             custom_embed.set_image(url=image_url)
         
-        custom_embed.set_footer(text="Made by kokex - xSportBS")
+        custom_embed.set_footer(text="BOT - xSportBS")
         
         await interaction.response.send_message(embed=custom_embed)
         await self.bot.log_command_usage(interaction, "embed")
@@ -143,7 +143,7 @@ class UtilityCog(commands.Cog):
                 inline=True
             )
         
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         
         await interaction.response.send_message(embed=embed)
         await self.bot.log_command_usage(interaction, "serverinfo")
@@ -229,7 +229,7 @@ class UtilityCog(commands.Cog):
                     inline=True
                 )
         
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         
         await interaction.response.send_message(embed=embed)
         await self.bot.log_command_usage(interaction, "userinfo")
