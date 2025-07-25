@@ -66,7 +66,7 @@ class MatchesCog(commands.Cog):
                     color=discord.Color.orange(),
                     timestamp=datetime.utcnow()
                 )
-                embed.set_footer(text="Made by kokex - xSportBS")
+                embed.set_footer(text="BOT - xSportBS")
                 
                 await member.send(embed=embed)
                 
@@ -179,7 +179,7 @@ class MatchesCog(commands.Cog):
         if image_url:
             embed.set_image(url=image_url)
         
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         
         # Create translation view
         embed_data = {
@@ -234,7 +234,7 @@ class MatchesCog(commands.Cog):
             color=discord.Color.blue(),
             timestamp=datetime.utcnow()
         )
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         
         await interaction.response.send_message(embed=embed)
         
@@ -251,7 +251,7 @@ class MatchesCog(commands.Cog):
                 description="No active matches at the moment.",
                 color=discord.Color.blue()
             )
-            embed.set_footer(text="Made by kokex - xSportBS")
+            embed.set_footer(text="BOT - xSportBS")
             await interaction.response.send_message(embed=embed)
             return
         
@@ -275,7 +275,7 @@ class MatchesCog(commands.Cog):
                 inline=False
             )
         
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         
         # Create translation view
         embed_data = {
