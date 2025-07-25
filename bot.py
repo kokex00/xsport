@@ -61,7 +61,7 @@ class XSportBSBot(commands.Bot):
         # Set bot status
         activity = discord.Activity(
             type=discord.ActivityType.watching,
-            name="xSportBS Server | Made by kokex"
+            name="xSportBS BOT | Made by kokex"
         )
         await self.change_presence(activity=activity)
         
