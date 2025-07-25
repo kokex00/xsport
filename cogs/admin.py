@@ -32,7 +32,7 @@ class AdminCog(commands.Cog):
             description=f"Bot activity will now be logged to {channel.mention}",
             color=discord.Color.green()
         )
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         
         await interaction.response.send_message(embed=embed)
         
@@ -65,7 +65,7 @@ class AdminCog(commands.Cog):
             description=f"Bot is now **{status}** in {channel.mention}",
             color=discord.Color.blue()
         )
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         
         await interaction.response.send_message(embed=embed)
         await self.bot.log_command_usage(interaction, "setchannelbot")
@@ -94,7 +94,7 @@ class AdminCog(commands.Cog):
                 color=discord.Color.blue(),
                 timestamp=datetime.utcnow()
             )
-            dm_embed.set_footer(text=f"Sent by {interaction.user.display_name} | Made by kokex - xSportBS")
+            dm_embed.set_footer(text=f"Sent by {interaction.user.display_name} | BOT - xSportBS")
             
             await user.send(embed=dm_embed)
             
@@ -148,7 +148,7 @@ class AdminCog(commands.Cog):
                     color=discord.Color.blue(),
                     timestamp=datetime.utcnow()
                 )
-                dm_embed.set_footer(text=f"Sent by {interaction.user.display_name} | Made by kokex - xSportBS")
+                dm_embed.set_footer(text=f"Sent by {interaction.user.display_name} | BOT - xSportBS")
                 
                 await member.send(embed=dm_embed)
                 success_count += 1
@@ -167,7 +167,7 @@ class AdminCog(commands.Cog):
         embed.add_field(name="✅ Successful", value=str(success_count), inline=True)
         embed.add_field(name="❌ Failed", value=str(failed_count), inline=True)
         embed.add_field(name="👥 Total Members", value=str(len(role.members)), inline=True)
-        embed.set_footer(text="Made by kokex - xSportBS")
+        embed.set_footer(text="BOT - xSportBS")
         
         await interaction.followup.send(embed=embed, ephemeral=True)
         await self.bot.log_command_usage(interaction, "dmrole")
